@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Face Recognition Based Attendance System</title>
+    <style>
+        /* Your existing CSS styles */ * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background-image: url('https://th.bing.com/th/id/R.40d93e5d629c34354bd6bbc5c5a61d98?rik=1%2b47yHSi3OQ6Nw&riu=http%3a%2f%2fblended-html.com%2fbackground-images%2fbi-background-black.png&ehk=M3Dysbq4ieBl9B4FNOhQWN5VfFNa3%2b5sd2NIObdKuUY%3d&risl=&pid=ImgRaw&r=0');
+        background-size: cover;
+        font-family: sans-serif;
+        margin-top: 40px;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+    #heading{
+        background-color: rgb(1, 5, 37);
+        text-align: center;
+        margin-top:50px;
+        font-size: 30px;
+        color: rgb(226, 241, 253);
+    }
+    #image{
+        /* margin-top:100px;
+        margin-left: 550px;
+        height: 100px;
+        width:250px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10%;
+        
+    }
+    .button button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px; 
+        color: rgb(255, 255, 255);
+        background-color: rgb(19, 7, 130);
+        border: none;
+        border-radius: 5px;
+        font-size: 25px;
+        cursor: pointer;
+        margin-right: 625px;
+        margin-top: 50px;
+        margin-left: 720px;
+
+    }
+    #b{
+        font-size: 30px;
+        color: rgb(50, 144, 253);
+        margin-left:70%;
+    }
+    </style>
+</head>
+<body>
+    <div id="heading">
+        <h1>Face Recognition Based Attendance System</h1>
+    </div>
+    <div id="image">
+        <img src="https://img.freepik.com/premium-photo/woman-with-scanner-grid-her-face-face-id-person-identify_77190-19136.jpg" alt="centered img" width="400px">
+    </div>
+
+    <div class="button">
+        <form action="/take-attendance" method="post">
+            <button type="submit">Take Attendance</button>
+        </form>
+    </div>
+    <div id="b">
+        <pre>Developed By :Marthi Hemalatha Yadav
+        </pre>
+    </div>
+
+    <footer>hemalathayadav16@gmail.com</footer>
+</body>
+</html>
